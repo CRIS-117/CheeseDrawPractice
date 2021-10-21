@@ -1,0 +1,83 @@
+/*https://medium.com/adalab/10-consejos-para-empezar-a-practicar-css-haciendo-arte-b7348057b2d4*/
+
+body 
+{
+	background: #87CEFA;
+	color: #fff;
+	font-family: 'Helvetica', sans-serif;
+}
+
+.heading
+{
+	color: #fff;
+	font-size: 20px;
+	font-weight: 100;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.cheese 
+{
+	width: 75px;
+	height: 75px;
+	background: linear-gradient(to bottom, #f7d576 0%, #f9cb42 100%);
+	border-radius: 8px;
+	box-shadow: 0px 4px 10px rgba(0,0,0,.1);
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	-webkit-transform:  translate(-50%, -50%);
+	transform:  translate(-50%, -50%);
+}
+
+.uno 
+{
+	width: 25px;
+	height: 25px;	
+	position: absolute;
+	left: 20px;
+	bottom: 20px;
+}
+
+.dos 
+{
+	width: 15px;
+	height: 15px;	
+	position: absolute;
+	right: 10px;
+	top: 5px;
+}
+
+.tres 
+{
+	width: 10px;
+	height: 10px;	
+	position: absolute;
+	right: 5px;
+	bottom: 20px;
+}
+
+.cuatro 
+{
+	width: 20px;
+	height: 20px;	
+	position: absolute;
+	left: 5px;
+	top: 5px;
+}
+
+.cinco
+{
+	width: 10px;
+	height: 10px;	
+	position: absolute;
+	left: 15px;
+	bottom: 5px;
+}
+
+.hole
+{
+	background: linear-gradient(to bottom, #FEAB37 0%, #F9CB42 80%);
+	border-radius: 100%;
+}
+
